@@ -8,9 +8,9 @@
     <title>Document</title>
     <style>
         td{
-          border: 1px solid black;
-
+          border: 2px solid black;
         }
+
     </style>
 </head>
 <body>
@@ -18,10 +18,13 @@
 </body>
 </html>
 <?php
-echo "<table>\n";
-$i = 1;
-while($i<=11){
 
+//Тут рендериться таблиця
+/*echo "<table>\n";
+
+$i = 1;
+
+while($i<=11){
         echo "\t<tr>\n";
     $colls = 1;
     while($colls<=3){
@@ -31,5 +34,27 @@ while($i<=11){
     $i++;
     echo "\t</tr>\n";
 }
-echo "</table>"
+echo "</table>"*/
+
+
+
+
+////Алгоритм рендера таблиці множення
+/*echo "<table>";
+for ($i = 1; $i <= 10; $i++) {
+
+    echo "<tr class='$i'> ";
+        for ($n = 1; $n <= 10; $n++) {
+
+            echo "<td class='$n'>";
+            echo $i * $n;
+            echo "</td>";
+
+        }
+    echo "</tr>";
+
+}
+echo "</table>";*/
+
+
 ?>
