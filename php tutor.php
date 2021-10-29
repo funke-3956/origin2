@@ -34,13 +34,13 @@ while($i<=11){
     $i++;
     echo "\t</tr>\n";
 }
-echo "</table>"*/
+echo "</table>";
 
 
 
 
 ////Алгоритм рендера таблиці множення
-/*echo "<table>";
+echo "<table>";
 for ($i = 1; $i <= 10; $i++) {
 
     echo "<tr class='$i'> ";
